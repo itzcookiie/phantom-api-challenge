@@ -45,3 +45,4 @@ urllib3==1.26.6
 virtualenv==20.7.1
 wsproto==1.0.0
 zope.interface==5.4.0
+gunicorn
