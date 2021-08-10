@@ -1,1 +1,1 @@
-web: daphne app.api.asgi:application
+worker: daphne app.api.asgi:application
