@@ -1,1 +1,1 @@
-web: gunicorn app.api.asgi:application
+worker: daphne -p $PORT app.api.asgi:application
