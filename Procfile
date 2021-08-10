@@ -1,1 +1,1 @@
-worker: daphne -p $PORT app.api.asgi:application
+web: daphne -p $PORT app.api.asgi:application
