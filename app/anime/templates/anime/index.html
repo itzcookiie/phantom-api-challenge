@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div>
+    <h1>Anime App</h1>
+    <h2>Hello and welcome to my anime app!</h2>
+    <h3>To get started hit any of these endpoints</h3>
+    <h4><bold>GET</bold> /anime</h4>
+    <ul>
+        <li> Get a list of anime of your choosing</li>
+    </ul>
+    <h4><bold>GET</bold> /anime/{character_name}</h4>
+    <ul>
+        <li> Get a list of anime based on the name of a character from that anime</li>
+    </ul>
+
+    <p>Note: This page will show when you first launch the app and on reaching any failed endpoints</p>
+</div>
+{% endblock %}

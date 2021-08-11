@@ -7,7 +7,7 @@ from ratelimit.decorators import ratelimit
 
 
 @ratelimit(key="ip", rate="100/h")
-def index(request):
+def get_anime(request):
     payload = {
         "q": "",
         "order_by": "members",
